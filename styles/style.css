@@ -1,87 +1,122 @@
+.margin {
+  margin: auto;
+  max-width: 1600px;
+}
+nav a {
+  text-align: center;
+}
+#hero-msg h1 {
+  text-align: center;
+}
+#hero-msg h4 {
+  text-align: center;
+}
+.button-box {
+  text-align: center;
+}
+main section {
+  text-align: center;
+}
 #background {
-height: 725px;
+  height: 725px;
+  width: 100%;
 }
-body{
-background-color: darkgray;
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: darkgray;
 }
-header{
-background-color: black;
+header {
+  background-color: black;
 }
 nav a:hover {
-background-color: darkgray;
+  background-color: darkgray;
 }
-.book, .join {
- background-color: black;
-color:white
+.book,
+.join {
+  background-color: black;
+  color: white;
 }
-.book:hover, .join:hover {
-background-color: black;
-color:white
+.book:hover,
+.join:hover {
+  background-color: black;
+  color: white;
 }
 #background {
-background-color: darkgrey;
+  background-color: darkgrey;
 }
 .msg {
-background-color: black;
+  background-color: black;
 }
 footer {
-background-color: darkgray;
-color:white
+  background-color: darkgray;
+  color: white;
 }
 nav a {
- background-color: black
-color:#fcfbfbaqua;
+  background-color: black;
+  color: white;
 }
-nav a:hover{
-background-color: black;
-color:white
+nav a:hover {
+  background-color: black;
+  color: white;
 }
 .home-title {
-background-color: black;
-color:white
+  background-color: black;
+  color: white;
 }
 
-h4{
-background-color: black;
-color:white
+h4 {
+  background-color: black;
+  color: white;
 }
 
-.msg h2{
-background-color: black;
-color:white
+.msg h2 {
+  background-color: black;
+  color: white;
 }
-.msg p{
-background-color: black;
-color:white
+.msg p {
+  background-color: black;
+  color: white;
 }
-footer a{
-background-color: black;
-color:white
+footer a {
+  background-color: black;
+  color: white;
 }
 .icon {
-width: 80px;
+  width: 80px;
 }
-#hero-img{
-width: 100px;
+#hero-img {
+  width: 100%;
+}
+img {
+  width: 40px;
+}
+.mountains {
+  width: auto;
 }
 nav a {
-text-align: center;
-color: #fcfbfb;
-text-decoration: none;
-}    
-.book, .join{
-text-align: center;
-color: #fcfbfb;
-text-decoration: none;
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
 }
-footer a{
-text-align: center;
- color: #fcfbfb;
-text-decoration: none;
+.book,
+.join {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+}
+footer a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
 }
 footer p {
-font-size: 1.2em;
-}    
+  font-size: 1.2em;
+}
 footer p a:hover {
- text-decoration: underline;
-}    
+  text-decoration: underline;
+}
+.card-img {
+  width: 200px;
+}

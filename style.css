@@ -1,3 +1,87 @@
 #background {
-    height: 725px;
+height: 725px;
 }
+body{
+background-color: darkgray;
+}
+header{
+background-color: black;
+}
+nav a:hover {
+background-color: darkgray;
+}
+.book, .join {
+ background-color: black;
+color:white
+}
+.book:hover, .join:hover {
+background-color: black;
+color:white
+}
+#background {
+background-color: darkgrey;
+}
+.msg {
+background-color: black;
+}
+footer {
+background-color: darkgray;
+color:white
+}
+nav a {
+ background-color: black
+color:#fcfbfbaqua;
+}
+nav a:hover{
+background-color: black;
+color:white
+}
+.home-title {
+background-color: black;
+color:white
+}
+
+h4{
+background-color: black;
+color:white
+}
+
+.msg h2{
+background-color: black;
+color:white
+}
+.msg p{
+background-color: black;
+color:white
+}
+footer a{
+background-color: black;
+color:white
+}
+.icon {
+width: 80px;
+}
+#hero-img{
+width: 100px;
+}
+nav a {
+text-align: center;
+color: #fcfbfb;
+text-decoration: none;
+}    
+.book, .join{
+text-align: center;
+color: #fcfbfb;
+text-decoration: none;
+}
+footer a{
+text-align: center;
+ color: #fcfbfb;
+text-decoration: none;
+}
+footer p {
+font-size: 1.2em;
+}    
+footer p a:hover {
+ text-decoration: underline;
+}    
