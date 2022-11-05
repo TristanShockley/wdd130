@@ -26,6 +26,10 @@ Fonts are separated by a | */
   --nav-hover-background-color: #396E94;
 }
 
+.pexels-alphatradezone-5833784.jpg {
+  width: 100;
+}
+
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -172,4 +176,3 @@ nav a:hover {
   grid-area: right;
   border-top: 1px solid;
   border-right: 1px solid;
-}XS
