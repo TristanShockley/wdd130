@@ -1,0 +1,67 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+.logo {
+  height: 100px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+nav a {
+  text-align: center;
+  color: #fcfbfb;
+  text-decoration: none;
+  padding: 35px;
+}
+nav a {
+  background-color: #1a6485;
+  color: white;
+}
+header {
+  display: grid;
+  grid-template-columns: 150px auto;
+  background-color: #1a6485;
+}
+nav a:hover {
+  background-color: darkgray;
+}
+#home-img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+#service-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+#contact-img {
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+}
+.maincontent {
+  margin: 2rem;
+  text-align: center;
+  font-family: open sans-serif;
+  color: #1a6485;
+}
+
+footer p {
+  font-size: 1.2em;
+}
+footer {
+  background-color: #1a6485;
+  color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer_link {
+  color: white;
+}
