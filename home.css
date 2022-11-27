@@ -96,8 +96,9 @@ nav a:hover {
   width: auto;
   height: auto;
   text-align: center;
-  margin: 2rem;
   color: #fcfbfb;
+  max-width: 50rem;
+  margin: auto;
 }
 .secoundcontent {
   margin: 2rem;
@@ -114,6 +115,8 @@ nav a:hover {
   text-align: center;
   margin: 2rem;
   color: #fcfbfb;
+  max-width: 50rem;
+  margin: auto;
 }
 footer p {
   font-size: 1.2em;
