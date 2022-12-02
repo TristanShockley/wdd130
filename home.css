@@ -118,6 +118,87 @@ nav a:hover {
   max-width: 50rem;
   margin: auto;
 }
+#rcorners3 {
+  border-radius: 25px;
+  background: #1a6485;
+  padding: 20px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  text-size-adjust: auto;
+  margin: 2rem;
+  color: #fcfbfb;
+  max-width: 50rem;
+  margin: auto;
+}
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.card-img {
+  width: 100%;
+  box-sizing: border-box;
+  border: 10px solid #1a6485;
+  transition: transform 0.5s;
+  box-shadow: 5px 5px 10px #6f7364;
+}
+.teamwork-card {
+  margin: 200px 0;
+  grid-column: 2/4;
+  text-align: center;
+  color: #1a6485;
+}
+.website-card {
+  margin: 200px 0;
+  grid-column: 5/7;
+  text-align: center;
+  color: #1a6485;
+}
+.review-card {
+  margin: 200px 0;
+  grid-column: 8/10;
+  text-align: center;
+  color: #1a6485;
+}
+.icon {
+  width: 80px;
+  padding-top: 10px;
+}
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 footer p {
   font-size: 1.2em;
 }
